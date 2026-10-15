@@ -17,10 +17,10 @@ fbq('track','PageView');
 :root{--ink:#14160F;--paper:#F6F1E1;--paper-dim:#D9D2B8;--brass:#19d68f;--brass-light:#72f5bf;--line:rgba(246,241,225,.16)}
 *{box-sizing:border-box;margin:0;padding:0}
 html{min-height:100%;background:var(--ink)}
-body{background:radial-gradient(ellipse at 50% 0%,rgba(25,214,143,.10),transparent 45%),var(--ink);color:var(--paper);font-family:'Poppins',sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:12px 16px;-webkit-font-smoothing:antialiased}
-.card{max-width:460px;width:100%;text-align:center;background:rgba(20,22,15,.96);border:1px solid var(--brass);border-radius:14px;padding:24px 30px 28px;box-shadow:0 18px 60px rgba(0,0,0,.22)}
-.avatar{width:120px;height:120px;margin:0 auto 14px;border-radius:50%;border:3px solid var(--brass);background:var(--paper);display:flex;align-items:center;justify-content:center;padding:10px;box-shadow:0 0 0 7px rgba(25,214,143,.07)}
-.avatar span{font-size:54px;line-height:1;filter:drop-shadow(0 2px 1px rgba(20,22,15,.12))}
+body{background:radial-gradient(ellipse at 50% 0%,rgba(25,214,143,.10),transparent 45%),var(--ink);color:var(--paper);font-family:'Poppins',sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:4px 16px;-webkit-font-smoothing:antialiased}
+.card{max-width:460px;width:100%;text-align:center;background:rgba(20,22,15,.96);border:1px solid var(--brass);border-radius:14px;padding:12px 30px 24px;box-shadow:0 18px 60px rgba(0,0,0,.22)}
+.avatar{width:150px;height:100px;margin:0 auto 10px;display:flex;align-items:center;justify-content:center;padding:0}
+.avatar svg{width:150px;height:100px;display:block;overflow:visible}
 h1{font-size:27px;font-weight:800;line-height:1.25;margin-bottom:13px;letter-spacing:-.5px}
 h1 span{color:var(--brass-light)}
 .skill-line{font-size:15px;font-weight:600;color:var(--brass-light);margin-bottom:19px}
@@ -30,13 +30,13 @@ h1 span{color:var(--brass-light)}
 .btn:hover{background:transparent;color:var(--brass-light);transform:translateY(-2px)}
 .btn svg{width:20px;height:20px;flex-shrink:0}
 .note{margin:19px 0 0;color:#9e9d8d;font-size:11px;line-height:1.6}
-@media(max-width:380px){.card{padding:22px 20px 24px}.avatar{width:104px;height:104px}h1{font-size:24px}.wanna{font-size:20px}}
+@media(max-width:380px){.card{padding:22px 20px 24px}.avatar{width:132px;height:88px}h1{font-size:24px}.wanna{font-size:20px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 </head>
 <body>
 <main class="card">
-  <div class="avatar" aria-label="Success With Me logo"><span>📈</span></div>
+  <div class="avatar" aria-label="Company logo"><svg viewBox="0 0 300 200" role="img" aria-label="Red angular emblem"><path d="M40 10 L48 91 L96 124 L137 151 L134 181 L150 193 L163 193 L179 181 L176 151 L217 124 L265 91 L273 10 L260 96 L210 132 L190 146 L193 174 L174 188 L164 199 L136 199 L126 188 L107 174 L110 146 L90 132 L40 96 Z" fill="#ff101a"/></svg></div>
   <h1>The most premium <span>asset in 2026?</span></h1>
   <p class="skill-line">🔥 A Refined Skill Set 📈</p>
   <p class="wanna">WANNA LEARN?</p>
